@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-$eia@4(x$2(j23zp^h$3j23=2_)s02rzf9i9p@_8b1sm!)jgr1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://languagelearning-bxay.onrender.com','0.0.0.']
+ALLOWED_HOSTS = ['languagelearning-bxay.onrender.com','0.0.0.']
 
 
 # Application definition
@@ -54,6 +54,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'MyProject.urls'
+
+CSRF_TRUSTED_ORIGINS=['languagelearning-bxay.onrender.com','0.0.0.']
 
 TEMPLATES = [
     {
