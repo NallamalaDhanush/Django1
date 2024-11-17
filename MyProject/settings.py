@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-$eia@4(x$2(j23zp^h$3j23=2_)s02rzf9i9p@_8b1sm!)jgr1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['languagelearning-bxay.onrender.com','127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['languagelearning-bxay.onrender.com','127.0.0.1', 'localhost','languagelearning-qdl7.onrender.com']
 
 
 # Application definition
