@@ -55,7 +55,10 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'MyProject.urls'
 
-CSRF_TRUSTED_ORIGINS=['languagelearning-bxay.onrender.com','0.0.0.']
+CSRF_TRUSTED_ORIGINS = [
+    'https://languagelearning-bxay.onrender.com'
+]
+
 
 TEMPLATES = [
     {
