@@ -56,7 +56,8 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'MyProject.urls'
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://languagelearning-bxay.onrender.com'
+    'https://languagelearning-bxay.onrender.com',
+    'https://languagelearning-qdl7.onrender.com'
 ]
 
 
